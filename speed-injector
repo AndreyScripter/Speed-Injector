@@ -109,3 +109,5 @@ MiniButton.MouseButton1Click:Connect(function()
     Frame.Visible = true
     MiniButton.Visible = false
 end)
+if not Welcome then Message("Script by AndreyHelloKitty", "Enjoy!", 5) end
+getgenv().Welcome = true

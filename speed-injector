@@ -111,3 +111,4 @@ MiniButton.MouseButton1Click:Connect(function()
 end)
 if not Welcome then Message("Script by AndreyHelloKitty", "Enjoy!", 5) end
 getgenv().Welcome = true
+end)

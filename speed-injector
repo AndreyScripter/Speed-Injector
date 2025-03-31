@@ -1,3 +1,9 @@
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Script Loaded"; 
+    Text = "Script By Andrey"; 
+    Duration = 5;
+})
+
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
